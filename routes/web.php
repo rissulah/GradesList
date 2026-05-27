@@ -22,4 +22,4 @@ Route::middleware(['auth'])->group(function () {
 });
 
 // ←←←←←←←←←← THIS IS VERY IMPORTANT ←←←←←←←←←←
-require __DIR__.'/auth';
+require __DIR__.'/auth.php';
